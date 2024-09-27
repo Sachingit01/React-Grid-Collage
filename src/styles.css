@@ -1,0 +1,82 @@
+.collage-grid {
+    width: 100%;
+    position: relative;
+  }
+  
+  .full-width-image {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .first-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .grid-container {
+    display: grid;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .grid-item {
+    position: relative;
+  }
+  
+  .smaller-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .plus-button {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .slider-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 20px;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  #splide-close {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    cursor: pointer;
+    color: white; /* Close icon color */
+    font-size: larger;
+    z-index: 1001; /* Ensure it's above the slider */
+  }
+  
